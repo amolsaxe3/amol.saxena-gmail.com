@@ -1,0 +1,135 @@
+/*
+ * Hi! I'm your stylesheet! I've got some sensible defaults here,
+ * but feel free to change me to your heart's content!
+ */
+
+* {
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(#ffffff, #c0c0c0);
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+}
+
+nav {
+  align-items: center;
+  background-color: #333333;
+  color: #c0c0c0;
+  display: flex;
+  height: 80px;
+  padding: 10px;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.addButton {
+  height: 50px;
+  width: 120px;
+  font-size: 16px;
+  padding: 10px;
+  color: 'red';
+  font-weight: bold;
+  background-color: lightBlue;
+  border-radius: 5px;
+  border-color: indigo;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.each-campus {
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 1px;
+  border-color: gray;
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.flex-container-campus {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+
+.flex-container-campus input {
+  margin-left: 20px;
+  height: 30px;
+}
+
+.flex-container-campus textarea {
+  margin-left: 20px;
+  height: 50px;
+}
+
+.flex-container-campus label {
+  font-weight: bold;
+}
+
+.flex-container-campus-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.campus-image {
+  height: 130px;
+  width: 100px;
+}
+
+.campus-content {
+  margin-left: 20px;
+}
+
+.edit-button {
+  padding: 5px;
+  margin: 10px;
+  font-weight: bold;
+  background-color: white;
+}
+
+.add-page {
+  margin: 10px;
+}
+
+.flex-container-single-campus {
+  display: flex;
+  flex-direction: row;
+}
+
+.single-campus-image {
+  height: 150px;
+  width: 150px;
+}
+
+.single-page-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.name-span {
+  padding-right: 10px;
+}
+
+
+
